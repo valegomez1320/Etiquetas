@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <div class="menu container">
+                <a href="#" class="logo">ETIQUETAS HTML</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Blockquote</a></li>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">Section</a></li>
+                        <li><a href="#">Article</a></li>
+                        <li><a href="#">More+</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <br>
+    <div class="etiqueta1">
+        <h1 class="titulo2">
+            <center>ETIQUETA BLOCKQUOTE</center>
+        </h1>
+        <p class="p1">
+            La etiqueta <b>blockquote</b> se utiliza para crear un bloque o sección donde aparezca
+            un texto que es una cita o referencia a una obra o fuente de información.
+            <br><b>Ejemplo: </b>utilizando -blockquote- como una etiqueta de agrupación.
+        </p>
+        <blockquote>
+            <p>El único conocimiento verdadero es saber que no sabes nada.</p>
+            <p class="author">Sócrates</p>
+        </blockquote>
+    </div>
+    <br>
+    <main>
+        <h1 class="titulo2">
+            <center>ETIQUETAS MAIN, SECTION Y ARTICLE</center>
+        </h1>
+        <p class="p1">A continuación, explicare para que sirven las etiquetas main, section y article.</p>
+        <section>
+            <article>
+                <h1 class="titulo3">MAIN</h1>
+                <p class="p1">La etiqueta <b>&lt;main&gt;</b> es un contenedor para los temas centrales de un documento o sección. Este
+                    contenido central puede interpretarse como todo lo que resta luego de quitar anuncios, encabezados
+                    (header), pies (footer), secciones de navegación (nav), vínculos relacionados y otros elementos
+                    secundarios.</p>
+                <p class="p1">La etiqueta <b>&lt;main&gt;</b> tiene mayor importancia para personas con discapacidades, que
+                    habitualmente acceden a la web a través de programas especiales como los navegadores de voz. En
+                    tales casos, los navegadores pueden ser instruidos para ir directamente al contenido principal del
+                    documento o sección (main), saltándose toda la información menos relevante.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1 class="titulo3">SECTION</h1>
+                <p class="p1">
+                    La etiqueta <b>&lt;section&gt;</b> define las secciones de un documento, como capítulos, encabezados, pies de
+                    página o cualquier otra sección del documento.<br>
+                    "Una sección es un agrupamiento temático de contenido, normalmente con un encabezado".
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1 class="titulo3">ARTICLE</h1>
+                <p class="p1">El elemento -article- es un contenedor de bloques de contenido que se consideran
+                    independientes del sitio web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por
+                    separado, como por ejemplo, en las indicación. Puedes encontrar habitualmente a este elemento
+                    encerrando artículos, entradas de blogs o mensajes de un foro.</p>
+            </article>
+        </section>
+    </main>
+
+    <h1 class="titulo2">
+        <center>ETIQUETAS CODE -PRE</center>
+    </h1>
+
+    <div class="contenedor">
+        <div class="div1">
+            <h1 class="titulo4">
+                <center>CODE</center>
+            </h1>
+            <P class="p2">
+                La etiqueta <b>&lt;code&gt;</b> se utiliza cuando se quiere definir un fragmento o ejemplo
+                de código en línea, sin saltos de línea, escrito en cualquier tipo de lenguaje
+                de programación. Por defecto, <b>&lt;code&gt;</b> se visualiza con un tipo de letra
+                monoespaciado.<br><br><b>Ejemplo:</b>
+                <br><br>
+                <img src="img/code.PNG" alt="code">
+                <br><br>
+            <div class="divpre">
+                <code>
+                Pasos para sumar dos numero: 
+                   1.num1 
+                   2.num2 
+                   3.sum = num1 + num2
+             </code>
+            </div>
+            </P>
+        </div>
+        <div class="div1">
+            <h1 class="titulo4">
+                <center>PRE</center>
+            </h1>
+            <P class="p2">
+                La etiqueta -pre- se utiliza cuando queremos definir un texto preformateado en
+                el que se respetan los espacios en blancos, loa tabuladores y los saltos de línea
+                (HTML por defecto no es capaz de hacerlo)<br><br><b>Ejemplo:</b>
+                <br><br>
+                <img src="img/pre.PNG" alt="code">
+                <br><br>
+
+            <pre>
+                 Pasos para sumar dos numero: 
+                    1. num1 
+                    2. num2 
+                    3. sum = num1 + num2
+              </pre>
+            </P>
+        </div>
+    </div>
+    <br>
+    <div class="contenedorkbd">
+        <h1 class="titulo4">
+            <center>ETIQUETA KBD</center>
+        </h1>
+        <p class="p2">Se utiliza cuando queremos definir un texto que se debe introducir en el ordenador
+            y un comando o un atajo de teclado. Por defecto <b>&lt;kbd&gt;</b> se visualiza con un tipo de
+            letra monoespaciado.</p>
+        <div class="contkbd">
+            <div class="div2">
+                <p class="p2"><strong>Ejemplo sin hoja de estilos</strong></p>
+                <br>
+                <img class="img1" src="img/kbd1.PNG" alt="kbd1">
+                <br><br><br>
+                <p class="p3">Para pasar a la siguiente pagina puede pulsar <kbd>Ctrl+avpág</kbd></p>
+            </div>
+            <div class="div2">
+                <p class="p2"><strong>Ejemplo con hoja de estilos</strong></p>
+                <img class="img1" src="img/kbd2.PNG" alt="kbd2">
+                <p class="p2">Para pasar a la siguiente pagina puede pulsar <kbd class="kbd1">Ctrl+avpág</kbd></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="div1">
+        <h1 class="titulo4">
+            <center> SAMP</center>
+        </h1>
+        <P class="p2">La etiqueta <b>&lt;samp&gt;</b> se utiliza cuando queremos definir un contenido que es la salida
+            de un programa o de un fragmento de código. Como un mensaje de error.
+            <br><strong>Ejemplo:</strong>
+        </P>
+        <div class="contsamp">
+            <img src="img/samp.PNG" alt="samp">
+            <samp>
+                <br>
+                ERROR 404!!!. Página no encontrada
+            </samp>
+        </div>
+    </div>
+    <br>
+    <div class="div1">
+        <h1 class="titulo4">
+            <center>VAR</center>
+        </h1>
+
+        <P class="p2">
+            Se utiliza cuando queremos definir una variable que forma parte de una fórmula
+            matemática o de un código. Por defecto <b>&lt;var&gt;</b> se visualizará en cursiva.
+            <br><strong>Ejemplo:</strong>
+        </P>
+        <div class="contvar">
+            <div class="divvar">
+                <p class="p3" style="margin-left: 10%;">
+                    Sí <var>Y</var> vale 56, ¿cuánto vale <var>Y</var> si lo divido en 7?
+                </p>
+            </div>
+            <img class="imgvar" src="img/var.PNG" alt="">
+        </div>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA HEADER</center>
+        </h1>
+        <p class="p1">El elemento <b>&lt;header&gt;</b> en HTML se utiliza para representar la sección introductoria o
+            encabezado de un documento o de una sección de contenido. Por lo general, se coloca
+            en la parte superior de la página web y puede contener elementos como el logotipo,
+            el título de la página, la navegación principal, o cualquier otro contenido
+            introductorio que desees mostrar. El uso de <b>&lt;header&gt;</b> ayuda a estructurar y dar
+            sentido a la información en una página web, facilitando la navegación y la comprensión del
+            contenido.
+            <br><br><strong>Ejemplo:</strong><br>
+        </p>
+        <div class="divheader">
+            <img class="img2" src="img/header.PNG" alt="">
+            <img class="img3" src="img/header2.PNG" alt="">
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETAS FIGURE-FIGCAPTION</center>
+        </h1>
+        <p class="p3">
+            El elemento <b>&lt;figure&gt;</b> representa a una pieza de documento autocontenido que se utiliza
+            habitualmente para encerrar imágenes, gráficos, tablas de referencia, videos, poemas,
+            fragmentos de código, etc. Podrían ser acompañada por una leyenda o título
+            <b>&lt;figcaption&gt;</b> que puede usarse para hacer una referencia al fragmento desde alguna
+            otra parte del documento. Además del título opcional, un elemento figure puede contener a
+            otros etiquetas como imágenes <b>&lt;img&gt;</b>, párrafos <b>&lt;p&gt;</b>, código de computadora <b>&lt;code&gt;</b>, citas
+            <b>&lt;cite&gt;</b>, etc. <br><br><strong>Ejemplo</strong><br>
+        </p>
+        <h2 class="titulo4" style="margin-left: 15%;">
+            Análisis basados en databooks
+        </h2>
+        <div class="divfigure">
+            <div>
+                <img class="img5" src="img/figure.PNG" alt="">
+            </div>
+            <div class="divfigure2">
+                <p class="p3">
+                    Escala basada en los databooks de los personajes (Ver Grafico A), desde naruto hasta
+                    the last,solo Sakura cuenta con estadísticas en boruto de entre las kunoichis y algunos
+                    datos son difíciles de encontrar.
+                </p>
+                <figure>
+                    <img class="img4" src="img/naruto.jpg" alt="">
+                    <figcaption>Grafico A: Naruto</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="div1">
+        <h1 class="titulo4">
+            <center>ETIQUETA ASIDE</center>
+        </h1>
+        <P class="p3">
+            La etiqueta <b>&lt;aside&gt;</b> en HTML se utiliza para marcar contenido relacionado o secundario
+            que está separado del contenido principal de la página, pero que aún guarda cierta
+            relevancia. Por lo general, se coloca en el lado, superior o inferior de una sección
+            principal y puede contener información adicional, como anuncios, enlaces relacionados,
+            widgets, comentarios, etc. <br>
+            La etiqueta <b>&lt;aside&gt;</b> es útil para estructurar y separar contenido complementario de la
+            información principal de una página web, ayudando a los usuarios a identificar y
+            distinguir fácilmente estos elementos secundarios.
+            <br><br><strong>Ejemplo: </strong><br>
+        </P>
+        <div class="divaside">
+            <div class="div4">
+                <article>
+                    <h2>Artículo Principal</h2>
+                    <p class="p3">Solo para amantes del verdadero café.</p>
+                </article>
+                <aside>
+                    <h2>Anuncio</h2>
+                    <p class="p3">¡Oferta especial! Compra ahora y obtén un 20% de descuento en
+                        nuestros productos. <a href="#">Más información</a></p>
+                </aside>
+            </div>
+            <img class="img6" src="img/aside1.PNG" alt="aside">
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA DFN</center>
+        </h1>
+        <P class="p3">
+            La etiqueta <b>&lt;dfn&gt;</b> en HTML se utiliza para marcar y definir un término
+            en un documento. "dfn" significa "definición" en inglés, y esta etiqueta se usa para
+            indicar que el texto que contiene es una definición o descripción del término al que
+            se refiere. Es especialmente útil cuando deseas proporcionar una explicación o
+            definición de un término técnico o poco común en tu contenido.
+            <br><br><strong>Ejemplo: </strong>En este ejemplo, <b>&lt;dfn&gt;</b> se utiliza
+            para definir la abreviatura "CSS" y proporciona una descripción utilizando el
+            atributo "title". Cuando un usuario coloca el cursor sobre "CSS" en la página, verá
+            una información sobre herramientas emergente con la definición "Cascading Style
+            Sheets". Esto ayuda a aclarar el significado de términos técnicos o abreviaturas.<br>
+        </P>
+        <img style="margin-left: 10%;" src="img/dfn.PNG" alt="">
+        <p class="p3"><strong><dfn title="Cascading Style Sheets">CSS</dfn> es un lenguaje de hojas de
+                estilo utilizado para diseñar la presentación de páginas web.</strong></p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA U</center>
+        </h1>
+        <p class="p3">La etiqueta <strong>&lt;u&gt;</strong> en HTML se solía utilizar para subrayar texto en un
+            documento
+            web. Sin embargo, en HTML5, su uso se desaconseja en favor de otras técnicas, ya que el
+            subrayado suele asociarse con enlaces en la mayoría de los navegadores web, lo que puede
+            llevar a confusiones. <br><br>
+            En lugar de <strong>&lt;u&gt;</strong>, se recomienda utilizar CSS para aplicar estilos de
+            presentación, como subrayar texto. Puedes lograrlo utilizando propiedades CSS, como
+            text-decoration: underline;, para subrayar texto o elementos específicos de manera más
+            controlada y sin ambigüedades. Esto proporciona un mejor control sobre la apariencia de
+            tu página web y evita malentendidos en la interpretación del subrayado como un enlace.
+            <br><br><b>Ejemplo</b><br>
+        </p>
+        <div class="divu">
+            <img class="imgu" src="img/u.PNG" alt="u">
+            <p style="margin-left: 10%;">Este es un ejemplo de <u>texto subrayado</u> utilizando la etiqueta &lt;u&gt;.
+            </p>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA SMALL</center>
+        </h1>
+        <P class="p3">
+            La etiqueta <b>&lt;small&gt;</b> en HTML se utiliza para representar texto que es de menor
+            importancia o que se debe mostrar en un tamaño de fuente más pequeño en relación
+            con el texto circundante. A menudo se usa para indicar contenido secundario, notas a
+            pie de página, acotaciones o texto legal que debe aparecer en un tamaño de fuente más
+            pequeño y con menos énfasis visual. <br><br>
+            El uso de <b>&lt;small&gt;</b> no solo cambia el tamaño del texto, sino que también sugiere
+            visualmente que el contenido es menos prominente en comparación con el texto
+            circundante, lo que puede ayudar a los lectores a identificar información secundaria
+            o menos crítica en una página web.
+            <br><br><strong>Ejemplo:</strong><br><br>
+        </P>
+        <div class="contsmall">
+            <div>
+                <img class="divimgsamll" src="img/small1.PNG" alt="">
+            </div>
+
+            <div class="divsmall">
+                <img class="imgsoju" src="img/soju.jpg" alt="soju"><br>
+                <small>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS</small>
+            </div>
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA DIV</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;div&gt;</b> en HTML se utiliza como un contenedor genérico para agrupar y
+            estructurar elementos y contenido en una página web. No tiene un significado
+            semántico en sí mismo, pero es esencial para la organización y el diseño de una
+            página web. Puedes aplicar estilos y atributos a un elemento <b>&lt;div&gt;</b> y utilizarlo
+            como un bloque de construcción para dividir y dar formato a tu contenido.
+            <br><br><strong>Ejemplo:</strong><br><br>
+        </p>
+        <img class="imgdiv" src="img/div.PNG" alt="div">
+        <br><br><br>
+        <div class="contdiv">
+            <div>
+                <img class="bk" src="img/lisa.jpg" alt="lisa">
+            </div>
+            <div>
+                <img class="bk" src="img/jisoo.jpg" alt="jisoo">
+            </div>
+            <div>
+                <img class="bk" src="img/rose.jpg" alt="rose">
+            </div>
+            <div>
+                <img class="bk" src="img/jennie.jpg" alt="jennie">
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA FOOTER</center>
+        </h1>
+        <P class="p3">
+            etiqueta &lt;footer&gt; en HTML se utiliza para representar la sección de pie de
+            página de un documento o de una sección de contenido en una página web. El pie de
+            página generalmente contiene información que no es parte del contenido principal,
+            como datos de contacto, enlaces a políticas de privacidad, derechos de autor,
+            créditos, información de licencia, y otros elementos similares. <br><br>
+            El uso de la etiqueta &lt;footer&gt; ayuda a estructurar la página web y a
+            proporcionar una ubicación clara y consistente para información importante que se
+            encuentra en la parte inferior de la página.
+            <br><br><b>Ejemplo</b><br><br>
+        </P>
+        <img class="imgfooter" src="img/footer.PNG" alt="footer">
+        <br><br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA TABLE</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;table&gt;</b> en HTML se utiliza para crear tablas que permiten
+            organizar y mostrar datos en filas y columnas. Las tablas son útiles para representar
+            información en una estructura tabular, como hojas de cálculo, listas de datos,
+            horarios, comparaciones, y más. La etiqueta <b>&lt;table&gt;</b> se utiliza junto
+            con otras etiquetas relacionadas, como <b>&lt;tr&gt;</b> (fila de la tabla),
+            <b>&lt;th&gt;</b> (celda de encabezado) y <td> (celda de datos), para construir
+                la estructura de la tabla. <br><br><b>Ejemplo</b><br>
+        </p>
+        <div class="divtabla">
+            <div>
+                <img class="imgtabla1" src="img/tabla1.PNG" alt="tabla1">
+            </div>
+            <table class="tabla1">
+                <tr>
+                    <th>Nombre</th>
+                    <th colspan="2">Información de Contacto</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>Teléfono: 123-456</td>
+                    <td>Correo: ana@example.com</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4"> Etiqueta mark
+            <center>ETIQUETA MARK</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;mark&gt;</b> en HTML se utiliza para resaltar un fragmento de texto
+            dentro de un documento HTML. Por lo general, se muestra el texto resaltado con un color
+            de fondo amarillo por defecto,
+            pero este estilo puede modificarse a través de CSS si es necesario.
+            <br><br><b>Ejemplo</b><br>
+        </p>
+        <img src="img/mark.PNG" alt="mark" style="margin-left: 10%;">
+        <p class="p3">
+            Nuestra mayor gloria no es no caer nunca, <mark>sino levantarnos cada vez que nos
+                caemos.</mark><br>
+        </p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA TIME</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;time&gt;</b> en HTML se utiliza para marcar contenido de texto
+            que representa una fecha y/u hora. Esta etiqueta es útil para ayudar a los
+            motores de búsqueda y los navegadores a entender y presentar correctamente
+            información relacionada con fechas y horas. Puedes proporcionar atributos para
+            indicar la fecha y la hora en un formato específico, <br><br><b>Ejemplo:</b><br>
+        </p>
+        <img src="img/time.PNG" alt="time" style="margin-left: 10%;">
+        <p class="p3">
+            La fecha de mi próxima reunión es el <time datetime="2023-11-15T15:00:00">
+                15 de noviembre de 2023 a las 3:00PM</time>
+        </p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA INS</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;ins&gt;</b> se utiliza para marcar texto que ha sido insertado o agregado a un documento,
+            lo que es especialmente útil cuando se está trabajando con documentos versionados o
+            se quiere destacar cambios o adiciones. Por lo general, el texto marcado con ins
+            se muestra subrayado por defecto. <br><br><b>Ejemplo:</b><br>
+        </p>
+        <img src="img/ins.PNG" alt="ins" style="margin-left: 10%;">
+        <p class="p3">El informe anterior fue preparado por el departamento de marketing. Sin embargo, se
+            ha realizado una <ins>importante actualización</ins> en los datos.
+        </p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA DEL</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;del&gt;</b> se utiliza para marcar el texto que ha sido eliminado o eliminado de un
+            documento.
+            Esto es especialmente útil cuando se trabaja con documentos versionados o cuando se desea resaltar los
+            cambios o
+            eliminaciones realizados en el contenido. Por lo general, el texto marcado con del se
+            muestra con una línea a través por defecto. <br><br><b>Ejemplo:</b></p><br>
+        <img src="img/del.PNG" alt="del" style="margin-left: 10%;">
+        <p class="p3">
+            El informe anterior fue preparado por el departamento de marketing. Sin embargo,
+            se ha realizado una <del>eliminación importante</del> en los datos.
+        </p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA DATA</center>
+        </h1>
+        <p class="p3">
+            La <b>&lt;etiqueta&gt;</b> data en HTML se utiliza para contener valores de datos en un
+            elemento del documento que pueden ser útiles para scripts u otros fines,
+            pero que no se muestran directamente en la página web. Esta etiqueta es
+            especialmente útil cuando deseas asociar datos estructurados con elementos HTML,
+            lo que facilita el acceso a esos datos mediante JavaScript u otras tecnologías. <br><br><b>Ejemplo:</b><br>
+        </p>
+        <img src="img/date.PNG" alt="date" style="margin-left: 10%;">
+        <p class="p3">La población de una ciudad es <data value="1500000">1,500,000</data> habitantes.</p><br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA SUB</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;sub&gt;</b> se utiliza en HTML para crear texto subíndice,
+            lo que significa que el texto dentro de esta etiqueta se muestra
+            ligeramente por debajo de la línea base de texto normal.
+            Esta etiqueta es comúnmente utilizada para representar fórmulas químicas,
+            notaciones matemáticas, números en secuencias y otras situaciones en las que un carácter
+            o conjunto de caracteres debe mostrarse en una posición inferior. <br><br><b>Ejemplo</b><br>
+        </p>
+        <img src="img/sub.PNG" alt="sub" style="margin-left: 10%;">
+        <p class="p3">La fórmula química para el agua es H <mark><sub>2</sub></mark>O.</p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA WBR</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;wbr&gt;</b> (Word Break Opportunity) es una etiqueta HTML poco común que
+            se utiliza para indicar un posible punto de ruptura de palabras en un texto.
+            Puede ser útil en situaciones en las que desees dar al navegador una sugerencia
+            sobre dónde permitir la división de palabras si el espacio en la línea es insuficiente,
+            especialmente en idiomas que contienen palabras largas. <br><br><b>Ejemplo</b><br>
+        </p>
+        <img src="img/wbr.PNG" alt="wbr" style="margin-left: 10%;">
+        <p class="p3">Este es un ejemplo de una palabra larga: super<wbr>califragilistic<wbr>expialidocious</p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA BR</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;br&gt;</b> en HTML se utiliza para crear un salto de línea
+            o un quiebre de línea dentro de un texto. Cuando se utiliza esta etiqueta,
+            el texto que lo precede se mostrará en una línea, y el texto que sigue a la etiqueta
+            br se mostrará en la línea siguiente.
+            Es especialmente útil cuando deseas forzar un cambio de línea sin crear un nuevo párrafo.
+            <br><br><b>Ejemplo:</b>
+        </p><br>
+        <img src="img/br.PNG" alt="br" style="margin-left: 10%;">
+        <p class="p3">Este es un ejemplo de texto<br>con un salto de línea.</p><br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA P</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;p&gt;</b> en HTML se utiliza para definir un párrafo en un documento HTML.
+            Los párrafos son bloques de texto que están separados por espacios en blanco
+            y generalmente se muestran con un espacio vertical significativo antes y después
+            del texto del párrafo. Esta etiqueta es una de las más comunes en HTML para estructurar
+            el contenido textual de una página web.
+            <br><br><b>Ejemplo:</b> Este parrafo esta en la etiqueta <b>&lt;p&gt;</b>
+        </p><br>
+        <img src="img/p.PNG" alt="p" style="margin-left: 10%;">
+        <p></p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1>
+            <center>ETIQUETA IMG</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;img&gt;</b> en HTML se utiliza para insertar imágenes en una página web. Esta etiqueta
+            no tiene contenido propio, pero en su
+            lugar utiliza el atributo srcpara especificar la fuente (URL) de la imagen que se mostrará en la página.
+            alt: Este atributo proporciona un texto alternativo para la imagen.
+            Es importante para la accesibilidad y se mostrará si la imagen no se carga
+            o si el usuario tiene discapacidades visuales. En el ejemplo, hemos proporcionado
+            "Galaxia" como texto alternativo. <br><br><b>Ejemplo:</b><br>
+        </p>
+        <img src="img/img.PNG" alt="img" style="margin-left: 10%;">
+        <p class="p3">A continuación se muestra la imagen:</p>
+        <img src="img/galaxia.jpg" alt="Galaxia" style="margin-left: 20%;">
+        <p></p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA SVG</center>
+        </h1>
+        <p class="p3">
+            La etiqueta <b>&lt;svg&gt;</b> (Scalable Vector Graphics) se utiliza para incrustar gráficos vectoriales
+            en una página web. Los gráficos vectoriales son imágenes que se representan mediante formas
+            geométricas definidas matemáticamente, lo que permite escalarlas sin pérdida de calidad
+            <br><br><b>Ejemplo: </b>
+        </p><br>
+        <img src="img/svg.PNG" alt="svg" style="margin-left: 10%;">
+        <p class="p3">A continuación se muestra un círculo dibujado con <b>&lt;svg&gt;</b></p>
+        <svg width="100" height="100" style="margin-left: 10%;">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4"> Etiqueta caption
+            <center>ETIQUETA CAPTION</center>
+        </h1>
+        <p class="p3">
+            La etiqueta caption se utiliza en HTML en asociación con elementos de tablas,
+            como table, para proporcionar una descripción o título para la tabla.
+            El elemento caption se coloca dentro del elemento table, pero debe estar ubicado
+            inmediatamente después de la etiqueta de apertura table para ser considerado válido.
+            <br><br><b>Ejemplo:</b>
+        </p><br>
+        <div class="contcaption">
+            <img class="imgcaption" src="img/caption.PNG" alt="caption">
+            <div class="divcaption">
+                <h3 class="titulo4">Información de Productos</h3>
+                <table>
+                    <caption>Lista de Productos</caption>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Camiseta</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Zapatos</td>
+                        <td>$50</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA COLGROUP-THEAD-TBODY-TFOOT</center>
+        </h1>
+        <p class="p3">
+            La etiqueta col, <b>&lt;colgroup&gt;</b> en HTML se utiliza para definir un grupo de columnas en una tabla
+            y establecer col que representa la columna.
+            La etiqueta thead se utiliza en HTML para definir la sección de encabezado de una tabla.
+            Esta thead son las etiquetas tr (filas) y th (encabezados de columna).
+            La etiqueta <b>&lt;tfoot&gt;</b> se utiliza en HTML para definir la sección de pie de una tabla.
+            Esta sección generalmente contiene resúmenes, totales u otra información relevante que
+            se coloca al final de una tabla. El contenido dentro de tfoot se coloca después de las
+            filas de datos reales (que suelen estar en tbody) y de las filas de encabezado de
+            columna (que suelen estar en thead).
+            <br><br><b>Ejemplo:</b><br>
+        </p>
+
+        <div class="divtablag">
+            <img class="imgtablag" src="img/tablaG.PNG" alt="tablag">
+            <table class="tablag" border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>María</td>
+                        <td>25</td>
+                        <td>España</td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>30</td>
+                        <td>Argentina</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br>
+    </div>
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
